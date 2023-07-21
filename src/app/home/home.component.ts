@@ -23,14 +23,14 @@ import { HousingLocation } from '../housinglocation';
   styleUrls: ['./home.component.css'],
 })
 export class HomeComponent {
-  readonly baseUrl = 'https://angular.io/assets/images/tutorials/faa';
+  readonly baseUrl = '../../assets/pic';
 
   housingLocation: HousingLocation = {
     id: 9999,
-    name: 'Test Home',
-    city: 'Test city',
+    name: 'La maison de tchuby',
+    city: 'DoggyTown',
     state: 'ST',
-    photo: `${this.baseUrl}/example-house.jpg`,
+    photo: `${this.baseUrl}/tchu.jpg`,
     availableUnits: 99,
     wifi: true,
     laundry: false,
