@@ -1,6 +1,5 @@
 import { provideRouter } from '@angular/router';
 import routeConfig from './app/routes';
-
 import {
   bootstrapApplication,
   provideProtractorTestingSupport,
